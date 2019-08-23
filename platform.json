@@ -33,6 +33,10 @@
       "package": "framework-esp8266-rtos-sdk",
       "script": "builder/frameworks/esp8266-rtos-sdk.py"
     },
+    "esp8266-rtos-sdk-v3": {
+      "package": "framework-esp8266-rtos-sdk-v3",
+      "script": "builder/frameworks/esp8266-rtos-sdk-v3.py"
+    },
     "esp8266-nonos-sdk": {
       "package": "framework-esp8266-nonos-sdk",
       "script": "builder/frameworks/esp8266-nonos-sdk.py"
@@ -52,6 +56,11 @@
       "type": "framework",
       "optional": true,
       "version": ">=1.5.0-beta"
+    },
+    "framework-esp8266-rtos-sdk-v3": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/espressif/ESP8266_RTOS_SDK.git#release/v3.2"
     },
     "framework-esp8266-nonos-sdk": {
       "type": "framework",
