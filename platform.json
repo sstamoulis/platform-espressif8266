@@ -22,8 +22,8 @@
     {
       "toolchain-xtensa": [
         {
-          "url": "https://dl.espressif.com/dl/xtensa-lx106-elf-win32-1.22.0-92-g8facf4c-5.2.0.tar.gz",
-          "sha1": "32747ABF4FFCC4C4EE084E4BCC52B2E3DBD00381",
+          "url": "https://github.com/sstamoulis/files/releases/download/v5.2.0/xtensa-lx106-elf-win32-1.22.0-92-g8facf4c-5.2.0-pio.tar.gz",
+          "sha1": "1E8425FDB843643DE514C2AEBB65511375D973AF",
           "version": "5.2.0",
           "system": "*"
         }
