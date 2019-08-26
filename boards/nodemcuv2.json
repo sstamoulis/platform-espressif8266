@@ -11,6 +11,7 @@
         "0xEA60"
       ]
     ],
+    "ldscript": "eagle.flash.4m1m.ld",
     "mcu": "esp8266",
     "variant": "nodemcu"
   },
