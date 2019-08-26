@@ -30,10 +30,6 @@ platform = env.PioPlatform()
 
 FRAMEWORK_DIR = platform.get_package_dir("framework-esp8266-rtos-sdk-v3")
 assert isdir(FRAMEWORK_DIR)
-TOOLCHAIN_V3 = platform.get_package_dir("toolchain-xtensa-v3")
-assert isdir(TOOLCHAIN_V3)
-# V3 toolchain binaries should be first in path
-env.PrependENVPath("PATH", join(TOOLCHAIN_V3, "bin"))
 
 env.Append(
     ASFLAGS=["-x", "assembler-with-cpp"],
