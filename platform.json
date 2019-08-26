@@ -20,12 +20,14 @@
     "https://raw.githubusercontent.com/yanbe/framework-esp8266-rtos-sdk/master/manifest.json",
     "https://raw.githubusercontent.com/sanderv32/framework-esp8266-nonos-sdk/master/manifest.json",
     {
-      "toolchain-xtensa-v3": {
-        "url": "https://dl.espressif.com/dl/xtensa-lx106-elf-win32-1.22.0-92-g8facf4c-5.2.0.tar.gz",
-        "sha1": "32747ABF4FFCC4C4EE084E4BCC52B2E3DBD00381",
-        "version": "5.2.0",
-        "system": "*"
-      }
+      "toolchain-xtensa": [
+        {
+          "url": "https://dl.espressif.com/dl/xtensa-lx106-elf-win32-1.22.0-92-g8facf4c-5.2.0.tar.gz",
+          "sha1": "32747ABF4FFCC4C4EE084E4BCC52B2E3DBD00381",
+          "version": "5.2.0",
+          "system": "*"
+        }
+      ]
     }
   ],
   "frameworks": {
@@ -54,11 +56,6 @@
     "toolchain-xtensa": {
       "type": "toolchain",
       "version": "<3"
-    },
-    "toolchain-xtensa-v3": {
-      "type": "toolchain",
-      "optional": true,
-      "version": "5.2.0"
     },
     "framework-arduinoespressif8266": {
       "type": "framework",

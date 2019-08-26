@@ -24,7 +24,7 @@ class Espressif8266Platform(PlatformBase):
         if "buildfs" in targets:
             self.packages['tool-mkspiffs']['optional'] = False
         if "esp8266-rtos-sdk-v3" in framework:
-            self.packages['toolchain-xtensa-v3']['optional'] = False
+            self.packages['toolchain-xtensa']['version'] = "5.2.0"
         return PlatformBase.configure_default_packages(
             self, variables, targets)
 
