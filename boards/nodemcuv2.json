@@ -22,6 +22,7 @@
     "arduino",
     "simba",
     "esp8266-rtos-sdk",
+    "esp8266-rtos-sdk-v3",
     "esp8266-nonos-sdk"
   ],
   "name": "NodeMCU 1.0 (ESP-12E Module)",
